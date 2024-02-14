@@ -2,10 +2,10 @@ use starknet::ContractAddress;
 
 use snforge_std::{declare, ContractClassTrait};
 
-use cairo_template::hello_starknet::IHelloStarknetSafeDispatcher;
-use cairo_template::hello_starknet::IHelloStarknetSafeDispatcherTrait;
-use cairo_template::hello_starknet::IHelloStarknetDispatcher;
-use cairo_template::hello_starknet::IHelloStarknetDispatcherTrait;
+use cairo_project_template::hello_starknet::IHelloStarknetSafeDispatcher;
+use cairo_project_template::hello_starknet::IHelloStarknetSafeDispatcherTrait;
+use cairo_project_template::hello_starknet::IHelloStarknetDispatcher;
+use cairo_project_template::hello_starknet::IHelloStarknetDispatcherTrait;
 
 fn deploy_contract(name: felt252) -> ContractAddress {
     let contract = declare(name);
