@@ -3,6 +3,7 @@
 ## 💽 Install dependencies
 
 ### asdf
+
 - [asdf](https://asdf-vm.com/) - The multiple runtime version manager. See [asdf guide](https://asdf-vm.com/guide/getting-started.html) for more details.
 
 ### Scarb
@@ -18,8 +19,8 @@ asdf plugin add scarb
 Install:
 
 ```bash
-asdf install scarb 2.5.0
-asdf global scarb 2.5.0
+asdf install scarb 2.5.3
+asdf global scarb 2.5.3
 ```
 
 ### Starknet Foundry
@@ -31,6 +32,7 @@ First, add the Starknet Foundry plugin to asdf:
 ```bash
 asdf plugin add starknet-foundry
 ```
+
 Install:
 
 ```bash
@@ -65,6 +67,7 @@ make deploy
 ## 🎯 Pre-commit
 
 To add pre-commit to the project, run:
+
 ```bash
 pip install pre-commit && pre-commit install
 ```
